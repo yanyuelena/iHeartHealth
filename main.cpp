@@ -13,7 +13,7 @@ int main() {
     getline(cin,name);
     cout << "Please enter your gender (Male or Female)" << endl;
     cin >> gender;
-    while (gender != tolower(male) || gender != tolower(female)) {
+    while (gender != "Male" && gender != "male" && gender != "Female" && gender != "female") {
         cout << "Please enter your gender" << endl;
     }
     cout << "Please enter your age: " << endl;
