@@ -23,7 +23,7 @@ int main() {
     cout << "Please enter your age: " << endl;
     cin >> age;
 
-    while (age <=0 || age > 150) {
+    while (age <=0 || age > 130) {
             cout << "Please enter your age correctly!" << endl;
             cout << "Please enter your age" << endl;
             cin >> age;
@@ -82,7 +82,7 @@ int main() {
     cout << "4. Zone 4 - Anaerobic Peak & High Intensity (80% - 90% of Max HR)" << endl;
     cout << "Enter your choice (1 - 4): ";
     cin >> zoneChoice;
-    
+
     while (zoneChoice < 1 || zoneChoice > 4) {
         cout << "Invalid choice! Please enter a number between 1 and 4: ";
         cin >> zoneChoice;
